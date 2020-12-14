@@ -1,4 +1,5 @@
 # redis_scheduler
 
-/etc/redis/redis.conf
-bind 0.0.0.0
+/etc/redis/redis.conf 에서 bind 주소 필요
+
+```redis-server --protected-mode no
